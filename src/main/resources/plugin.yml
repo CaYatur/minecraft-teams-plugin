@@ -1,0 +1,19 @@
+name: TeamsPlugin
+version: '1.0'
+main: com.cayadev.teamsplugin.TeamsPlugin
+api-version: '1.20'
+authors: [CaYaDev]
+description: Takım tabanlı kule savaşları için geliştirilmiş bölge korumalı plugin
+
+commands:
+  cyteam:
+    description: Takım yönetim komutları
+    usage: "/cyteam <create|join|leave|info|list|help> [takım] [oyuncu]"
+    aliases: [t, team]
+  cyregion:
+    description: Bölge yönetim komutları
+    usage: "/cyregion <select|create|info|list|help>"
+    aliases: [r, region]
+  cyhelp:
+    description: Plugin yardım menüsü
+    usage: "/cyhelp"
